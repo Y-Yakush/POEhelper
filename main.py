@@ -3,7 +3,7 @@ import sys
 
 from pynput import keyboard
 from script import active_elements_search
-from exceptions import ExitException
+from exceptions.exceptions import ExitException
 
 logging.basicConfig(stream=sys.stdout, level=logging.ERROR, format='%(message)s')
 
