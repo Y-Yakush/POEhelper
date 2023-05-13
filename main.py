@@ -9,10 +9,10 @@ logging.basicConfig(stream=sys.stdout, level=logging.ERROR, format='%(message)s'
 
 
 def script_work():
-    print('Поиск активных элементов начался ...')
+    # print('Поиск активных элементов начался ...')
     active_elements_search()
-    print('Поиск завершен. Нажмите <ctrl>+<alt>+y, чтобы проверить скрин еще раз '
-          'или <ctrl>+e для выхода из программы')
+    # print('Поиск завершен. Нажмите <ctrl>+<alt>+y, чтобы проверить скрин еще раз '
+    #       'или <ctrl>+e для выхода из программы')
 
 
 def script_exit():

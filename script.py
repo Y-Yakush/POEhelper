@@ -21,7 +21,7 @@ def image_analyser(img):
     contours, hierarchy = cv2.findContours(mask_kernel, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     active_blocks = len(contours)
 
-    # Отрисовка найденных кругов на изображении
+    # Отрисовка найденных объектов на изображении
     img_copy = img.copy()
     cv2.drawContours(img_copy, contours, -1, (0, 255, 0), 2)
     cv2.imwrite('src/final.jpg', img_copy)
